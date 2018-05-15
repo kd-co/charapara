@@ -1,0 +1,192 @@
+/* Manjari */
+@font-face {
+	font-family: 'Manjari Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://smc.org.in/downloads/fonts/manjari/Manjari-Regular.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Regular.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Regular.ttf?v=1.0) format('truetype');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
+}
+
+/* Manjari Bold*/
+@font-face {
+	font-family: 'Manjari Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://smc.org.in/downloads/fonts/manjari/Manjari-Bold.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Bold.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Bold.ttf?v=1.0) format('truetype');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
+}
+
+/* Manjari Thin*/
+@font-face {
+	font-family: 'Manjari Thin';
+	font-style: normal;
+	font-weight: 100;
+	src: url(https://smc.org.in/downloads/fonts/manjari/Manjari-Thin.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Thin.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Thin.ttf?v=1.0) format('truetype');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
+}
+
+html, body{
+	font-family: 'Manjari Regular';
+	background: #fff;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+select{
+	-webkit-border-radius: 4px;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16' height='16' viewBox='0 0 24 24'><path fill='#444' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+}
+.navbar{
+	margin: 60px 0px;
+	text-align: center;
+}
+.brand-header{
+	font-size: 48px;
+	color: #333;
+	font-family: 'Manjari Bold';
+	display: block;
+}
+.brand-sub-header{
+	color: #555;
+	margin: 0px 0px 0px 0px;
+	font-size: 22px;
+}
+.brand-info-header{
+	color: #aaa;
+	margin: 0px;
+	font-size: 15px;
+}
+.btn{
+	display: block;
+	width: 100%;
+}
+.pr0{
+	padding-right: 0px;
+}
+.pl0{
+	padding-left: 0px;
+}
+.select-main.input-lg{
+    line-height: 28px;
+	border-radius: 4px 0px 0px 4px;
+}
+.btn-main{
+	border-radius: 0px 4px 4px 0px;
+	font-size: 15px;
+	padding: 12px;
+}
+.hide{
+	display: none;
+}
+.charapara-outer-container{
+	border-radius: 0px 0px 4px 4px;
+	border: 1px solid #ddd;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 1.6;
+	border-top: 0px;
+	margin: 0px 0px 40px 0px;
+}
+.charapara-text-container p{
+	margin-bottom: 20px;
+	color: #666;
+}
+.charapara-controls-container{
+	background: #fafafa;
+	border: 1px solid #ddd;
+	border-radius: 4px 4px 0px 0px;
+	padding: 0px;
+}
+.control-btn:first-child{
+	border-radius: 4px 0px 0px 4px;
+}
+.control-btn{
+	padding: 15px;
+	display: inline-block;
+	border-right: 1px solid #ddd;
+	cursor: pointer;
+	transition: all 0.1s ease-in;
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+}
+.control-btn:hover{
+	background: #fff;
+}
+.para-control-btn{
+	float: left;
+}
+.settings-control-btn{
+	float: right;
+}
+.control-btn img{
+	max-width: 24px;
+	opacity: 0.25;
+}
+.control-btn-active img{
+	opacity: 0.8;
+}
+.control-btn-active{
+	background: #fff;
+}
+.success-icon-small{
+	max-height: 16px;
+	margin-right: 3px;
+	vertical-align: middle;
+	opacity: 1 !important;
+}
+#copy-control-btn{
+	width: 140px;
+	border-right: none;
+}
+#settings-refresh-btn{
+	border-left: 1px solid #ddd;
+}
+.social-links a {
+    font-size: 20px;
+    color: #bbb;
+    padding: 3px;
+    margin: 0 5px;
+}
+.social-links [class*='kdcoicon']:before {
+	color: #bbb;
+}
+.social-links{
+	margin: 25px 0px 40px 0px; 
+}
+.center{
+	text-align: center;
+}
+.footer .kdco-logomark {
+    width: 52px;
+    height: auto;
+    opacity: .21;
+}
+
+@media(max-width: 800px){
+	#copy-control-btn {
+	    width: auto;
+	}
+	#settings-refresh-btn{
+		border-left: none;
+	}
+	.control-btn{
+		padding: 10px 15px;
+	}
+	.control-btn img {
+	    max-width: 18px;
+	}
+	.navbar {
+	    margin: 40px 0px;
+	}
+	.brand-header {
+    	font-size: 36px;
+	}
+	.brand-sub-header {
+		font-size: 18px;
+	}
+}

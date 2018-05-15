@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Charapara - Dummy Text Generator for Malayalam</title>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/grid12.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <a class="brand-header">
+        ചറപറ!
+      </a>
+      <p class="brand-sub-header">സുലോ വിന്തേന പിഷി വാട്ടിയം കിടിരാമൽ തൈവലം.</p>
+      <p class="brand-info-header">അതായതുത്തമാ, മലയാളത്തിൽ ഒരു ലോറം ഇപ്‌സം ജനറേറ്റർ!</p>
+    </nav>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="charapara-controls-container">
+          <div class="row">
+            <div class="col-xs-12">
+              <a class="control-btn para-control-btn control-btn-active" id="para-control-btn-1" onclick="handleParagraphChange(this, 1)">
+                <img src="img/para1.svg">
+              </a>
+              <a class="control-btn para-control-btn" id="para-control-btn-2" onclick="handleParagraphChange(this, 2)">
+                <img src="img/para2.svg">
+              </a>
+              <a class="control-btn para-control-btn" id="para-control-btn-3" onclick="handleParagraphChange(this, 3)">
+                <img src="img/para3.svg">
+              </a>
+              <a class="control-btn settings-control-btn" id="copy-control-btn" onclick="handleCopyBtnClick()">
+                <img src="img/green-check-icon.svg" class="success-icon-small hide" id="copy-control-btn-success-icon">
+                <span id="copy-control-text">
+                  കോപ്പി
+                </span>
+              </a>
+              <a class="control-btn settings-control-btn" onclick="randomizeCharapara()" id="settings-refresh-btn">
+                <img src="img/refresh.svg">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="charapara-outer-container">
+          <div class="charapara-text-container animated" id="charapara-text-container">
+            
+          </div>
+        </div>
+        <div class="footer center">
+          <img src="img/kdco-logomark.svg" class="kdco-logomark">
+          <div class="social-links">
+            <a target="_blank" href="https://www.behance.net/kdco"><span class="kdcoicon-brand"></span></a>
+            <a target="_blank" href="https://www.facebook.com/groups/264660753884778/"><span class="kdcoicon-brand2"></span></a>
+            <a target="_blank" href="https://twitter.com/KDCotweets"><span class="kdcoicon-brand5"></span></a>
+            <a target="_blank" href="https://www.instagram.com/kdco_official/"><span class="kdcoicon-brand3"></span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
