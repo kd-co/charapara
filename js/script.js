@@ -59,10 +59,10 @@ function copyToClipboard(containerid) {
   document.body.removeChild(textarea);
 
   $('#copy-control-btn-success-icon').removeClass('hide');
-  $('#copy-control-text').html('കോപ്പീഡ്!');
+  $('#copy-control-text').html('അടിച്ചു മാറ്റി!');
   setTimeout(function(){
   	$('#copy-control-btn-success-icon').addClass('hide');
- 	$('#copy-control-text').html('കോപ്പി');
+ 	$('#copy-control-text').html('അടിച്ചു മാറ്റുക');
   }, 5000);
 }
 
