@@ -2,7 +2,7 @@ var words = ['കുറാപ്പുകെ', 'പിണി', 'ശുഭലീ�
 
 var paragraph_word_count = 50;
 var paragraph_line_count = 4;
-var line_word_count = 10;
+var line_word_count = [8, 10, 12, 14];
 var num_paragraphs = 1;
 var num_lines = 0;
 var temp_paragraph = '', temp_line = '', temp_markup;
@@ -17,7 +17,8 @@ function generateCharapara(paragraph_count){
 		console.log(paragraph_count);
 		for(var j=0;j<=paragraph_line_count; j++){
 			temp_line = '';
-			for(var i = 0; i<=line_word_count; i++){
+			var rand_line_word_count = line_word_count[Math.floor(Math.random()*line_word_count.length)];
+			for(var i = 0; i<=rand_line_word_count; i++){
 				temp_line = temp_line + words[Math.floor(Math.random()*words.length)] + ' ';
 			}
 			temp_line = temp_line.slice(0,-1) + '. ';
