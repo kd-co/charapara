@@ -2,7 +2,7 @@ var words = ['കുറാപ്പുകെ', 'പിണി', 'ശുഭലീ�
 
 var paragraph_word_count = 50;
 var paragraph_line_count = 4;
-var line_word_count = [8, 10, 12, 14];
+var line_word_count = [8, 10, 14];
 var num_paragraphs = 1;
 var num_lines = 0;
 var temp_paragraph = '', temp_line = '', temp_markup;
