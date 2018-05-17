@@ -32,6 +32,7 @@ html, body{
 }
 a{
 	text-decoration: none;
+	cursor: pointer;
 }
 select{
 	-webkit-border-radius: 4px;
@@ -165,6 +166,23 @@ select{
     width: 52px;
     height: auto;
     opacity: .21;
+}
+.contribute-link{
+	margin-bottom: 30px;
+	color: #444;
+	display: block;
+	transition: all 0.1s ease-in;
+	font-size: 16px;
+}
+.contribute-link:hover{
+	opacity: 0.6;
+}
+.icon-small{
+	color: #444;
+	max-height: 18px;
+	margin-right: 5px;
+	position: relative;
+	top: -1px;
 }
 
 @media(max-width: 800px){
