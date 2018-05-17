@@ -211,7 +211,7 @@ select{
 	    max-width: 18px;
 	}
 	.navbar {
-	    margin: 40px 0px;
+	    margin: 40px 0 25px 0px;
 	}
 	.brand-header {
     	font-size: 36px;
