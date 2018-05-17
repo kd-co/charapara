@@ -42,7 +42,7 @@ select{
     background-repeat: no-repeat;
 }
 .navbar{
-	margin: 60px 0px;
+	margin: 60px 0px 40px 0px;
 	text-align: center;
 }
 .brand-header{
@@ -60,6 +60,11 @@ select{
 	color: #aaa;
 	margin: 0px;
 	font-size: 15px;
+}
+.footer-textline{
+	font-size: 12px;
+	color: #999;
+	margin: 15px 0px 0px 0px;
 }
 .btn{
 	display: block;
@@ -90,7 +95,7 @@ select{
 	font-size: 16px;
 	line-height: 1.6;
 	border-top: 0px;
-	margin: 0px 0px 40px 0px;
+	margin: 0px 0px 30px 0px;
 }
 .charapara-text-container p{
 	margin-bottom: 20px;
@@ -142,7 +147,6 @@ select{
 }
 #copy-control-btn{
 	width: 150px;
-	border-right: none;
 }
 #settings-refresh-btn{
 	border-left: 1px solid #ddd;
@@ -157,7 +161,7 @@ select{
 	color: #bbb;
 }
 .social-links{
-	margin: 25px 0px 40px 0px; 
+	margin: 20px 0px 0px 0px; 
 }
 .center{
 	text-align: center;
@@ -168,7 +172,7 @@ select{
     opacity: .21;
 }
 .contribute-link{
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	color: #444;
 	display: block;
 	transition: all 0.1s ease-in;
@@ -183,6 +187,14 @@ select{
 	margin-right: 5px;
 	position: relative;
 	top: -1px;
+}
+#settings-share-btn{
+	border-right: 0px;
+}
+.sm-share-dropdown{
+	left: auto;
+    top: 100%;
+    right: -20px;
 }
 
 @media(max-width: 800px){
