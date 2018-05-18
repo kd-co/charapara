@@ -163,6 +163,9 @@ select{
 .social-links{
 	margin: 20px 0px 0px 0px; 
 }
+.footer .social-links{
+	margin: 20px 0px 40px 0px; 
+}
 .center{
 	text-align: center;
 }
